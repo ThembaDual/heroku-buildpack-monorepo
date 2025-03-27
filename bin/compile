@@ -28,5 +28,5 @@ fi
 
 echo "Copied contents of ${APP_BASE} into root of app successfully" | indent
 
-rm -rf "${BUILD_DIR}/${APP_BASE}"
-echo "Deleted ${BUILD_DIR}/${APP_BASE} after copying" | indent
+# rm -rf "${BUILD_DIR}/${APP_BASE}"
+# echo "Deleted ${BUILD_DIR}/${APP_BASE} after copying" | indent
